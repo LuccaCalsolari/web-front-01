@@ -1,0 +1,31 @@
+body{
+    background: bisque;
+}
+.container{
+    max-width: 400px;
+    border: 1px solid rgb(117, 116, 116);
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card{
+    background:rgb(37, 170, 137);
+    height: 150px;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+}
+
+.button{
+    background: rgb(97, 20, 20);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.voltarDiv{
+    background: rgb(53, 32, 168);
+}

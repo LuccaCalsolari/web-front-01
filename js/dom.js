@@ -12,3 +12,15 @@ imprimeNome("Myriel");
 
 teste(7, 1);
 teste(10, 5);
+
+function cliqueAqui(){
+    alert("olá")
+}
+
+const tirarDiv = document.querySelector(".tirarDiv");
+const voltarDiv = document.querySelector(".voltarDiv");
+const card = document.querySelector(".card");
+
+tirarDiv.addEventListener('click', function(){
+    alert('testando');
+});
